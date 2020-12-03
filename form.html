@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+ <form action="#" method="GET" enctype="multipart/form-data">
+     <label for="name">Name</label>
+     <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+     <label for="password">Password</label>
+     <input type="password" name="password" id="password" placeholder="Enter password"><br>
+     <label for="email">Email</label>
+     <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+     <label for="phone">Mobile Number</label>
+     <input type="tel" name="phone" id="phone" placeholder="Enter Mobile Number"><br>
+     <label for="dob">DOB</label>
+     <input type="date" name="dob" id="dob" placeholder="Enter your dob" max="2012-12-03"><br>
+     <label for="age">Age</label>
+     <input type="number" name="age" id="age" placeholder="Should be 18+" min="18"><br>
+     <label for="file">Upload Profile Photo</label>
+     <input type="file" name="file" id="file" placeholder="upload photo"><br>
+     <label for="color">Favourite Color</label>
+     <input type="color" name="color" id="color"><br>
+     Favourite Food: <br>
+     <label for="chicken">Chicken</label>
+     <input type="checkbox" name="chicken" id="chicken" >
+     <label for="mutton">Mutton</label>
+     <input type="checkbox" name="mutton" id="mutton"><br>
+     Gender: <br>
+     <label for="male">Male</label>
+     <input type="radio" name="gender" id="male" value="male">
+     <label for="female">Female</label>
+     <input type="radio" name="gender" id="female" value="female"> <br>
+     <label for="status">Status</label>
+     <select name="status" id="status">
+         <option value="single">Single</option>
+         <option value="married">Married</option>
+         <option value="divorced">Divorced</option>
+     </select> <br>
+     <label for="bio">Bio</label>
+     <textarea name="bio" id="bio" cols="10" rows="4"></textarea> <br>
+     <button type="reset">Reset</button>
+     <button type="submit">Submit</button>
+     <button type="menu">Menu</button>
+
+ </form>
+</body>
+</html>
